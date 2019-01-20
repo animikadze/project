@@ -191,6 +191,9 @@
 	font-size: 50px;
 	color: #FFFFFF;
 }
+.section7{
+	margin-bottom: 55px;
+}
 .basic{
 	text-align: center;
 	margin-right: 90px;
@@ -209,7 +212,7 @@
 .input3{
     width: 250px;
     height: 50px;
-    color: #868686;
+    color: #FFFFFF;
     text-align: center;
     background-color: #3EC6FF;
     font-size: 18px;
@@ -224,22 +227,29 @@
 }
 .standard:hover{
 	width: 370px;
-	height:243px;
+	height:210px;
 	background-color: #3EC6FF;
 }
 .standard:hover .input3{
     background-color: #FFFFFF;
+    color: #868686;
+}
+.standard:hover .title-basic{
+	color: #FFFFFF;
+}
+.standard:hover .price{
+	color: #FFFFFF;
 }
 .map{
     width: 100%
 }
 .box{
-	position: relative;
 	background-color: #868686;
     width: 830px;
     height: 650px;
     text-align: center;
     padding-top: 40px;
+    margin-left: 22%;
 }
 .contact{
 	font-size:36px;
