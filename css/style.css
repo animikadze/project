@@ -132,7 +132,36 @@
 	        justify-content: flex-start;
 }
 .photo1{
-	width: 355px;
+	background-image: url(../img/photo1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	width: 480px;
+}
+.photo2{
+	background-image: url(../img/photo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	width: 480px;
+}
+.photo3{
+	background-image: url(../img/photo3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	width: 480px;
+}
+.photo4{
+	background-image: url(../img/photo4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	width: 480px;
 }
 .section3{
 	margin-bottom: 110px;
@@ -244,12 +273,17 @@
     width: 100%
 }
 .box{
+	position: relative;
 	background-color: #868686;
     width: 830px;
     height: 650px;
     text-align: center;
     padding-top: 40px;
     margin-left: 22%;
+    bottom: 700px;
+}
+.last-bg{
+	height: 730px;
 }
 .contact{
 	font-size:36px;
