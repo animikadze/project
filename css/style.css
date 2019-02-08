@@ -27,8 +27,11 @@
 	color:#868686;
 	font-family: 'Roboto', sans-serif;
 }
+.navigation-a:hover{
+    font-size: 20px;
+}
 .social-li{
-	width: 20px;
+	font-size: 25px;
 	color:#868686;
 }
 .header{
@@ -187,13 +190,36 @@
 .team-members{
 	margin-right: 30px;
 }
+.name{
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 10px;
+	color: #868686;
+	margin-top: 10px;
+	font-family: 'Roboto', sans-serif;  
+}
+.designer{
+	font-size: 18px;
+	text-align: center;
+	color: #868686;
+	font-family: 'Roboto', sans-serif;
+}
+.social-icons{
+	font-size: 30px;
+	text-align: center;
+	margin-right: 30px;
+	color: #3EC6FF;
+}
+.fa-facebook-f{
+	margin-left: 55px;
+	margin-top: 10px;
+}
 .background-photo{
 	background-image: url(../img/Untitled.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 630px;
-}
+	height: 630px;}
 .section6{
 	margin-bottom: 50px;
 }
@@ -330,4 +356,164 @@
 .web{
 	color: #3EC6FF;
 	font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 768px) {
+	.navigation-a{
+		display: none;
+	}
+    .icons{
+    	display: -webkit-box;
+    	display: -ms-flexbox;
+    	display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .team-bg{
+    	display:-webkit-box;
+    	display:-ms-flexbox;
+    	display:flex; 
+    	-ms-flex-wrap:wrap; 
+    	    flex-wrap:wrap;
+    }
+    .first{
+        margin-left: 40px;
+    }
+    .third{
+    	margin-left: 40px;
+    	margin-top: 20px;
+    }
+    .fourth{
+    	margin-top: 20px;
+    }
+    .logo{
+    	width: 200px;
+    	margin-left: 40px;
+    }
+    .social-li{
+        margin-right: 40px;
+    }
+    .input1{
+    	width:600px;
+    }
+    .input2{
+    	width:600px;
+    	margin-top: 10px;
+    }
+    .section7{
+    	display: -webkit-box;
+    	display: -ms-flexbox;
+    	display: flex;
+    	-ms-flex-wrap: wrap;
+    	    flex-wrap: wrap;
+    }
+    .PROFESSIONAL{
+    	margin-left: 30%;
+    	margin-top: 20px;
+    }
+    .box{
+    	width:500px;
+    	margin-left: 50px;
+    }
+    .input{
+    	width: 300px;
+    }
+    .send{
+    	width: 300px;
+    }
+}
+@media (max-width: 600px){
+	.service1{
+		margin-left: 40px;
+	}
+	.service3{
+		margin-left: 40px;
+		margin-top: 20px;
+	}
+	.service4{
+		margin-top: 20px;
+	}
+	.image{
+		height: 230px;
+	}
+	.h2{
+		margin-left: -40px;
+	}
+	.input1{
+		margin-left: -40px;
+		width: 400px;
+	}
+	.input2{
+		margin-left: -40px;
+		width: 400px;
+	}
+	.photos{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+	    margin-left: 40px;
+	}
+	.team-members{
+		margin-left: 30%;
+	}
+	.second{
+		margin-top: 20px;
+	}
+	.basic{
+		margin-left: 30%;
+	}
+}
+@media (max-width: 480px){
+	.logo{
+		width: 150px;
+		margin-left: 10px;
+	}
+	.service2{
+       margin-left: 40px;
+	}
+	.service4{
+		margin-left: 40px;
+	}
+	.h2{
+		font-size: 18px;
+		margin-left: -90px;
+	}
+	.input1{
+		margin-left: -90px;
+		width: 300px;
+	}
+	.input2{
+		margin-left: -90px;
+		width: 300px;
+	}
+	.photos{
+		margin-left: 20px;
+	}
+	.team-members{
+		margin-left: 30px;
+	}
+	.circle{
+		display: none;
+	}
+	.basic{
+		margin-left: 30px;
+	}
+	.box{
+		width: 300px;
+		margin-left: 30px;
+	}
+	.contact{
+		font-size: 30px;
+		margin-top: 10px;
+	}
+	.contact-text{
+		font-size: 12px;
+	}
+	.input{
+        width: 200px;
+	}
+	.send{
+		width: 200px;
+	}
 }
